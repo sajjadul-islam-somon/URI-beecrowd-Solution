@@ -5,7 +5,7 @@ int main()
 {
     char s1[21],s2[21];
     cin>>s1>>s2;
-    // int cmp = s1.compare(s2);  
+    // int cmp = s1.compare(s2);  /*It's a dedicated STL function in c++*/
     int cmp = strcmp(s1,s2);    /*This function is faster than both compare() , lexicographical_compare() function.*/
     if (cmp<0)
     {
