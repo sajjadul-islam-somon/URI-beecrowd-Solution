@@ -5,7 +5,7 @@ int main()
     int a,b;
     while (cin>>a>>b && a && b)
     {
-        cout<<a-(b-a)<<"\n";
+        cout<<(2*a-b)<<"\n";
     }
     return 0;
 }
